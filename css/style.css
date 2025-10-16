@@ -1,0 +1,38 @@
+/* Import des polices Google */
+@import url("https://fonts.googleapis.com/css?family=Lora|Roboto");
+
+/* Import des composants */
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+/* Styles globaux */
+body {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin: 0;
+  background-color: #f7f7f7; /* léger fond gris pour contraste avec les cartes */
+  color: #333; /* couleur texte globale plus douce */
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  margin: 0;
+  color: #222;
+}
+
+a {
+  text-decoration: none;
+  color: inherit; /* liens prennent la couleur du texte par défaut */
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}

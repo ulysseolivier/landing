@@ -1,0 +1,23 @@
+.btn-blue {
+  background-color: #cf4846;
+  padding: 15px 25px;
+  border-radius: 40px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(207, 72, 70, 0.3);
+}
+
+.btn-blue:hover {
+  background-color: #e55b59;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(207, 72, 70, 0.4);
+}
+
+.btn-blue:active {
+  transform: translateY(-1px);
+  box-shadow: 0 3px 8px rgba(207, 72, 70, 0.3);
+}
